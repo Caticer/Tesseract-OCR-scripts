@@ -9,7 +9,7 @@ def natural_keys(text):
     return [ atoi(c) for c in re.split('(\d+)',text) ]
 
 for i in os.listdir('./input'):
-    os.system(f'tesseract.exe ./input/"{i}" ./tmp/"{i}" --oem 1 -l tur pdf')
+    os.system(f'tesseract ./input/"{i}" ./tmp/"{i}" --oem 1 -l tur pdf')
 	
 pdfs = os.listdir('./tmp')
 pdfs.sort(key=natural_keys)
