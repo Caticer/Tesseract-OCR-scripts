@@ -1,7 +1,7 @@
 @echo off
 title Tesseract OCR
 @shift /0
-mode con cols=70 lines=20
+mode con cols=75 lines=25
 
 
 if exist ".\out\out.pdf" del /s /f /q ".\out\out.pdf"
