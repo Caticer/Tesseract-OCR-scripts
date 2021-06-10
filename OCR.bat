@@ -7,6 +7,8 @@ mode con cols=75 lines=25
 if exist ".\out\out.pdf" del /s /f /q ".\out\out.pdf"
 if exist ".\tmp\*.pdf" del /s /f /q ".\tmp\*.pdf"
 
+cls
+
 if not exist tmp mkdir tmp
 if not exist out mkdir out
 if not exist input mkdir input
