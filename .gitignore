@@ -114,3 +114,8 @@ dmypy.json
 .pyre/
 out/merged.pdf
 out/merged.pdf
+input/1.pdf
+input/2.pdf
+input/3.pdf
+input/4.pdf
+*.pdf

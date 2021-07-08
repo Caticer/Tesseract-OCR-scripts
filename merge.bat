@@ -10,5 +10,5 @@ if not exist ".\tmp\" mkdir ".\tmp\"
 if not exist out mkdir out
 if not exist input mkdir input
 
-python.exe ".bin\merge.py"
+python.exe "merge.py"
 pause
